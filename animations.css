@@ -1,0 +1,89 @@
+#s1 {
+    top: 97%;
+    left: 56%;
+    opacity: 1;
+    animation-name: s1;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    
+}
+@keyframes s1 {
+    from {
+        top: 97%;
+        left: 56%;
+        opacity: 1;
+    }
+    to {
+        left: 45%;
+        top: 70%;
+        opacity: 0;
+    }
+}
+#s2 {
+    top: 97%;
+    left: 52%;
+    opacity: 1;
+    animation-name: s2;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    
+}
+@keyframes s2 {
+    from {
+        top: 97%;
+        left: 52%;
+        opacity: 1;
+    }
+    to {
+        left: 65%;
+        top: 70%;
+        opacity: 0;
+    }
+}
+
+#tm1 {
+    animation-name: tm1;
+    animation-duration: 16s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes tm1 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 97%;
+    }
+}
+#tm2 {
+    animation-name: tm2;
+    animation-duration: 15s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes tm2 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 97%;
+    }
+}
+
+#tm3 {
+    animation-name: tm3;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes tm3 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 97%;
+    }
+}
